@@ -4,7 +4,6 @@ import Home from './pages/Home';
 import SignUp from './pages/auth/SignUp';
 import './App.css';
 
-
 function App() {
   return (
     <div className="App">
