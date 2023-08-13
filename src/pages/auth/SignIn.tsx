@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Container , Form, Input, InputWrapper, SignupTitle,
-    InputTitle, Button } from './signUp-styled';
+    InputTitle, Button } from './signin-styled';
 
-const SignUp = () => {
+const SignIn = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
@@ -10,7 +10,7 @@ const SignUp = () => {
     <>
         <Container>
             <Form>
-                <SignupTitle>회원가입</SignupTitle>
+                <SignupTitle>로그인</SignupTitle>
                 <InputWrapper>
                     <InputTitle>이메일</InputTitle>
                     <Input 
@@ -29,10 +29,11 @@ const SignUp = () => {
                         required
                     />
                 </InputWrapper>
-                <Button type='submit'>Sign Up</Button>
+                <Button type='submit'>Sign In</Button>
             </Form>
         </Container>        
-    </>)
-}
+    </>
+    )
+};
 
-export default SignUp;
+export default SignIn;
