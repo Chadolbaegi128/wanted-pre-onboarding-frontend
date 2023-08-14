@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { ChangeEvent, useState } from "react";
 import { Container , Form, Input, InputWrapper, SignupTitle,
     InputTitle, Button } from "./signUp-styled";
 
@@ -13,7 +13,11 @@ const SignUp = () => {
 
     const checkEmailVaild = (email: string) => {
         return regEmail.test(email);
-    }    
+    }
+    
+    const handleEmail = (e:ChangeEvent<HTMLInputElement>) => {
+        setEmail(e.target.value);
+    }
 
     return (
     <>
