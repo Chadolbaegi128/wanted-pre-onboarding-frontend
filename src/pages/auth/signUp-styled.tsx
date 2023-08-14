@@ -79,5 +79,6 @@ export const Button = styled.button`
 
     &:active{
         background-color: #59679E;
+        color: #eeeeee;
     }
 `;
