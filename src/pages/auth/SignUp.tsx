@@ -5,10 +5,15 @@ import { Container , Form, Input, InputWrapper, SignupTitle,
 const regEmail = /@/;
 const regPW = /.{8,}/;
 
-const SignUp = () => {
-    const [emailVaild, setEmailVaild] = useState(true);
+const SignUp = () => {    
     const [email, setEmail] = useState("");
+    const [emailVaild, setEmailVaild] = useState(true);
+    const [emailErrorMessage, setEmailErrorMessage] = useState("");
     const [password, setPassword] = useState("");
+
+    const checkEmailVaild = (email: string) => {
+        return regEmail.test(email);
+    }    
 
     return (
     <>
