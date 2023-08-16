@@ -3,13 +3,11 @@
 
 ## 프로젝트의 실행방법
 
-/* client */
-yarn install 또는 yarn
-yarn start
+- 터미널에 "npm install" 또는 "npm i"을 입력 후 엔터
+- 프로젝트 실행에 필요한 라이브러리 설치
+- 터미널에 "npm run start" 또는 "npm start"을 입력 후 엔터
+- 프로젝트 실행
 
-/* server */
-npm install
-npm run dev
 
 
 ## 데모 영상(배포 링크)
