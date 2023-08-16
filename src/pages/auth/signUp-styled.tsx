@@ -65,17 +65,13 @@ export const Button = styled.button`
     height: 50px;
     position: relative;
     top: 80px;
-    background-color: #48961E;
+    background-color: ${props=>props.disabled? "gray" : "#48961E;"};
     color: #01161E;
     font-size: 20px;
     font-weight: bold;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-
-    &:hover {
-        background-color: #124559;
-    }
 
     &:active{
         background-color: #59679E;
