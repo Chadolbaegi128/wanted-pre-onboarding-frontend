@@ -9,6 +9,5 @@
 - 프로젝트 실행
 
 
-
 ## 데모 영상(배포 링크)
-
+- [링크](https://drive.google.com/file/d/125C8j7hTRPXJvgs7yhniXSz62VNW9iY_/view?usp=sharing)
